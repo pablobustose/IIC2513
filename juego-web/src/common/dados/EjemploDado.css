@@ -1,0 +1,35 @@
+#texto {
+    text-align: center;
+}
+input {
+    max-width: 40px;
+    max-height: 20px;
+    align-self: center;
+}
+h3 {
+    text-align: center;
+}
+
+label {
+    padding: 10px;
+}
+.container-dados {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.input-group-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.grupo-atacantes,
+.grupo-defensores {
+    flex: 1;
+}
+button {
+    border-color: black;
+    border: 1px solid black;
+}

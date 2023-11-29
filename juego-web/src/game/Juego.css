@@ -1,0 +1,249 @@
+.fondo {
+    background-image: url('../revolucion_francesa.jpeg'); 
+    background-size: cover; 
+    margin: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 5em;
+}
+
+.opciones-juego {
+    background-color: aliceblue;
+}
+
+.tablero-panel {
+    display: flex;
+    align-items: flex-start;
+}
+
+.protector-pantalla {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+  }
+  
+  .desplazamiento-popup {
+    position: relative;
+    background-image: url('../revrusa.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    z-index: 1001;
+  }
+
+  .reforzar-popup {
+    position: relative;
+    background-image: url('../revping.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    z-index: 1001;
+  }
+
+  .titulo-popup {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  .pregunta-popup {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+
+  .disclaimer-popup {
+    font-size: 0.8em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0.5em;
+    color: white
+  }
+
+
+.input-soldados {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.dados-juego {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.dado-juego {
+    margin-right: 0.5em;
+}
+
+.cartas-juego {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.carta-juego {
+    width: 9em;
+}
+
+.activar-animacion {
+    opacity: 0;
+    animation: aparecer 1s forwards;
+}
+
+
+
+.tablero {
+    min-width: 60%;
+    margin-left: 2.5em;
+}
+
+.boton-fase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boton-fase p {
+    background-color: white;
+    border: 3.5px solid black;
+    padding: 0.5em;
+    margin: 0;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: 500;
+    min-width: 70px;
+}
+
+.boton-fase p:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.panel {
+    background-color: rgb(144, 18, 18);
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    height: 585px;
+    border-radius: 20px;
+    width: 70%;
+    overflow-x: auto;
+}
+
+.panel .titulo-panel{
+    font-weight: 800;
+    font-size: 1.6em;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.panel-cartas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-carta {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.indicadores {
+  margin: 1em 2em;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6em; 
+  background-color: rgb(144, 18, 18);
+  border-radius: 20px;
+}
+
+.indicadores p {
+    color: white;
+    font-weight: 600;
+    margin-right: 3em;
+}
+
+
+.boton-cartas {
+    margin-bottom: 2em;
+}
+
+.dado-juego {
+    width: 3em;
+}
+
+@media screen and (max-width: 1000px) {
+    .tablero-panel {
+        align-content: center;
+        display: grid;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .tablero {
+        min-width: 50%;
+        margin-right: 2em;        
+    }
+
+    .panel {
+        margin: 2.5em;
+        padding: 2em;
+        width: auto;
+    }
+    
+    .indicadores {
+        flex-direction: column; 
+        text-align: center; 
+        padding: 0.5em; 
+    }
+
+    .indicadores p {
+        margin-top: 0.5em;
+    }
+    .panel-cartas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

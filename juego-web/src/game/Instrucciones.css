@@ -1,0 +1,27 @@
+.Instrucciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruccion-item2 {
+    width: 100%;
+}
+
+.ins {
+    overflow: hidden;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner {
+    display: flex;
+}
+
+.ins-botones {
+    display: flex;
+    justify-content: space-between;
+}

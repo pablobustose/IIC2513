@@ -1,0 +1,9 @@
+/* .inputs-crear-partida button {
+    background-color: #7289da;
+} */
+
+.boton-sala-espera button{
+    /* Estilos para el botón Sala de Espera */
+    background-color: #7289da;
+    color: white;
+  }

@@ -1,0 +1,72 @@
+/* Estilos generales */
+.sobre-nosotros header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobre-nosotros header h1 {
+    font-size: 28px;
+}
+
+.sobre-nosotros section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.miembros-equipo h3 {
+    text-align: justify;
+}
+
+/* Estilos para encabezados */
+.sobre-nosotros h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+.sobre-nosotros h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para la lista de redes sociales */
+.sobre-nosotros ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-nosotros ul li {
+    margin-bottom: 10px;
+}
+
+.nombre-foto-integrante {
+    display:flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.nombre-integrante {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-right: 180px; /* Agrega un espacio entre el nombre y la imagen */
+}
+
+.imagen-circular {
+    width: 150px; /* Ajusta el ancho y alto según tus necesidades */
+    height: 150px;
+    border-radius: 50%; /* Hace que el contenedor tenga forma circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que salga del círculo */
+}
+
+.imagen-circular img {
+    width: 100%; /* Asegura que la imagen llene todo el contenedor circular */
+    height: 100%;
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin distorsión */
+}
+

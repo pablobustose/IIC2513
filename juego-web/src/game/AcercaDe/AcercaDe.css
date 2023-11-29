@@ -1,0 +1,50 @@
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas para la primera fila */
+  grid-auto-rows: minmax(100px, auto); /* Altura mínima de 100px y ajuste automático */
+  gap: 10px; /* Espacio entre elementos */
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 3 columnas para la primera fila */
+  grid-auto-rows: minmax(100px, auto); /* Altura mínima de 100px y ajuste automático */
+  gap: 10px; /* Espacio entre elementos */
+}
+.contenedor-ejercitos {
+  display: flex;
+  gap: 20%;
+}
+
+
+/* Estilos para las secciones */
+  .acerca-de section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+  .acerca-de h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+  }
+
+
+/* Estilos para la grilla */
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas con igual ancho */
+  gap: 10px; /* Espacio entre las cartas */
+  justify-items: center;
+}
+
+/* Estilos para cada carta en la grilla */
+
+.carta img {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho de la carta */
+  max-height: 100%; /* Ajusta el tamaño máximo de la imagen al alto de la carta */
+}

@@ -1,0 +1,109 @@
+.maestro_cara_1 {
+    background-image: url('../Dados_Negros/dado_1.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.maestro_cara_2 {
+    background-image: url('../Dados_Negros/dado_2.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.maestro_cara_3 {
+    background-image: url('../Dados_Negros/dado_3.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.maestro_cara_4 {
+    background-image: url('../Dados_Negros/dado_4.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.maestro_cara_5 {
+    background-image: url('../Dados_Negros/dado_5.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.maestro_cara_6 {
+    background-image: url('../Dados_Negros/dado_6.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.intermedio_cara_1 {
+    background-image: url('../Dados_Azules/dado_1.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.intermedio_cara_2 {
+    background-image: url('../Dados_Azules/dado_2.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.intermedio_cara_3 {
+    background-image: url('../Dados_Azules/dado_3.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.intermedio_cara_4 {
+    background-image: url('../Dados_Azules/dado_4.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.novato_cara_1 {
+    background-image: url('../Dados_Verdes/dado_1.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.novato_cara_2 {
+    background-image: url('../Dados_Verdes/dado_2.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.novato_cara_3 {
+    background-image: url('../Dados_Verdes/dado_3.png');
+    background-size: 100px 100px;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+

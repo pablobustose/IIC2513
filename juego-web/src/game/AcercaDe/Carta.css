@@ -1,0 +1,41 @@
+.carta {
+    width: 150px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .cara-frontal,
+  .cara-trasera {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+  }
+  
+  .cara-frontal {
+    transform: rotateY(0deg);
+  }
+  
+  .cara-trasera {
+    transform: rotateY(180deg);
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  /* Estilos para la carta cuando está volteada */
+  .carta.volteada .cara-frontal {
+    transform: rotateY(-180deg);
+  }
+  
+  .carta.volteada .cara-trasera {
+    transform: rotateY(0deg);
+    display: block;
+  }
+  

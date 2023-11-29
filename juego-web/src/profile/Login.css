@@ -1,0 +1,146 @@
+.Login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .form-login {
+    animation: izquierda 1s ease-out;
+}
+
+.form-login {
+    background-color: rgb(127, 59, 59);
+    padding: 30px 90px 50px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.titulo {
+    color: #f4f4dd;
+    font-size: 40px;
+    margin: 30px;
+    position: relative;
+}
+
+.titulo::after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #d3d3cd;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    border-radius: 2px;
+}
+
+.input-field {
+    background-color: rgb(214, 200, 200);
+    margin: 15px 0;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-field .inputinicio {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 17px;
+    max-width: none;
+}
+
+.input-field .inputinicio::placeholder {
+    color: #28281f;
+    max-width: none;
+}
+
+.input-field img {
+    margin-left: 4%;
+    color: #28281f;
+    width: 20px;
+    height: 20px;
+}
+
+.boton button {
+    background-color: #d3d3cd;
+    color: #28281f;
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+.usuario-re {
+    text-align: left;
+    margin-top: 5%;
+}
+
+.usuario-re a {
+    color: #f4f4dd;
+}
+
+.usuario-re a:hover {
+    color: #d3d3cd;
+}
+
+.error-popup {
+    margin-top: 5%;
+    background-color: coral;
+    padding: 2px;
+    border-radius: 5px;
+  }
+.succes-popup {
+    margin-top: 5%;
+    background-color: rgb(118, 255, 80);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .form-login {
+        width: 75%;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .form-login h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-login h1::after {
+        width: 50%;
+        content: '';
+        height: 3px;
+        background-color: #d3d3cd;
+        position: absolute;
+        bottom: -10px;
+        left: 25%;
+        border-radius: 2px;
+    }
+
+    .input-field input {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .inputs {
+        width: 75%;  
+        height: auto; 
+        display: inline-block;     
+    }
+
+    .boton button {
+        font-size: 0.9rem;
+    }
+
+    .usuario-re a {
+        font-size: 0.9rem;
+    }
+}

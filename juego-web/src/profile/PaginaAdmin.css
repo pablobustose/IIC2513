@@ -1,0 +1,85 @@
+.pagina-admin-container {
+    padding: 20px;
+  }
+  
+  .titulo {
+    color: #7289da;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .seccion {
+    margin: 30px;
+  }
+  
+  h2 {
+    color: #7289da;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .instancia-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .atributos-instancia {
+    width: 70%;
+    content: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+  }
+
+  .att {
+    align-content: center;
+    width: 33%;
+    background-color: #71747e;
+    border-radius: 5px;
+    margin: 5px;
+
+  }
+
+  .att2 {
+    content: center;
+    width: 50%;
+    background-color: #71747e;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .instancia {
+    background-color: rgba(28, 57, 83, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin: 5px;
+  }
+
+  .instancia h2 {
+    color: white; /* Estilo para el h2 dentro de la instancia */
+  }
+  
+  .instancia p {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .instancia button {
+    margin-left: auto;
+  }
+  
+  .eliminar-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .eliminar-btn:hover {
+    background-color: #ff3333;
+  }

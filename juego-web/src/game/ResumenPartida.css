@@ -1,0 +1,58 @@
+.resumen-container {
+  padding: 20px;
+  background-color: rgba(28, 57, 83, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.titulo-resumen {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-partida {
+  background-color: green;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.volver-btn {
+  background-color: #7289da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.botones {
+  display: flex;
+  
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Puedes ajustar el margen según tus necesidades */
+}
+
+.volver-btn {
+  background-color: #7289da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 10px; /* Espaciado entre los botones */
+}
+
+.volver-btn:hover {
+  background-color: #6272a4;
+}

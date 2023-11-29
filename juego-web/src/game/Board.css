@@ -1,0 +1,72 @@
+.board {
+    display: grid;
+    gap: 0;
+    padding: 1.5em;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 3em;
+    min-width: 60%;
+    overflow: auto;
+  }
+
+.fila {
+    display: flex;
+    justify-content: center;
+  }
+
+.celda {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.celda.yellow {
+  background-color: yellow;
+  border-color: yellow;
+}
+
+.celda.green {
+  background-color: green;
+  border-color: green;
+}
+
+.celda.black {
+  background-color: black;
+  border-color: black;
+}
+
+.celda.red {
+  background-color: red;
+  border-color: red;
+}
+
+.celda.blue {
+  background-color: blue;
+  border-color: blue;
+}
+
+.destacar {
+  cursor: pointer;
+  opacity: 0.7; 
+}
+
+
+
+.numero {
+  font-size: x-large;
+  font-weight: 900;
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 1000px) {
+  .board {
+    min-width: auto; 
+    overflow: auto;
+    padding: 1em; 
+  }
+}

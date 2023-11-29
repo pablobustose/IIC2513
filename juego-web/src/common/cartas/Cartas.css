@@ -1,0 +1,28 @@
+.instruccion-item {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.instruccion-titulo {
+    font-size: 1.15rem;
+    margin: 30px 0;
+    padding: 0 20px;
+    white-space: normal;
+    color: brown;
+}
+.instruccion-titulo h1 {
+    color: brown;
+    font-size: 28px;
+}
+
+.instruccion-descripcion {
+    font-size: 1rem;
+    margin: 40px 0;
+    padding: 0 20px;
+    white-space: normal;
+    color: brown;
+    text-align: justify;
+}

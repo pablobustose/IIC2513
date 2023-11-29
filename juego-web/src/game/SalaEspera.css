@@ -1,0 +1,100 @@
+.container-menu-sala-espera {
+    padding: 2em;
+    background-color: rgba(28, 57, 83, 0.377);
+    margin: 3em;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.lista-partidas {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sala-espera {
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.player {
+    background-color: #89908c;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player-attribute {
+    color: white;
+    margin-bottom: 10px;
+    align-content: center;
+    width: 33%;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #bdc0be;
+}
+
+/* Clases de color para jugadores */
+.blue-player {
+    background-color: #346cdb; /* Azul */
+}
+
+.red-player {
+    background-color: #e74c3c; /* Rojo */
+}
+
+.yellow-player {
+    background-color: #e8f312; /* Amarillo */
+}
+
+.green-player {
+    background-color: #2ecc71; /* Verde */
+}
+
+.player h3 {
+    color: white;
+}
+
+.player h3:first-child {
+    margin-right: 0;
+}
+
+.admin-player {
+    background-color: #555454; /* Color de fondo para el administrador */
+}
+
+.botones-sala-espera {
+    display: flex;
+    margin: 3em;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-sala-espera button {
+    background-color: #7289da;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .botones-sala-espera {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botones-sala-espera button {
+        margin-top: 5px;
+    }
+}
