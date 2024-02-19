@@ -1,0 +1,11 @@
+{
+    "action":1,
+    "body":{
+        "id_partida":1,
+        "id_jugador":2,
+        "id_territorio":2,
+        "n_guerreros_principiantes":0,
+        "n_guerreros_intermedios":0,
+        "n_guerreros_avanzados":0
+    }
+}
